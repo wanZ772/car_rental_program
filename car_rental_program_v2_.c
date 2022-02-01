@@ -2,21 +2,18 @@
 
 #include <stdio.h>
 #include <string.h>
-#include<stdbool.h>
+#include <stdbool.h>
 
 int main()
 {
-    int room_price[3] = {
-        120,100,60
-    };
+    
     
     
     
     char calc[1];
     char car_type[10];
-    char room_type[10];
-    int meal_type, days, rental_period, rental_price;
-    float room_charge;
+    
+    int rental_period, rental_price;
     printf("WELCOM TO CAR RENTAL PROGRAM\n");
     
     bool conti = true;
